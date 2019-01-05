@@ -9,16 +9,16 @@
 body { font-family:'Lato'; background-color:#f7f7f7}
 header { width: 100%; }
 
-nav-bar { display: none; }
+.nav-bar { display: none; }
 
-header nav {
+.header nav {
   background: #c0392b;
   z-index: 1000;
   width: 100%;
   margin: auto;
 }
 
-header nav ul { list-style: none; }
+.header nav ul { list-style: none; }
 
 header nav ul li {
   float: left;
@@ -77,7 +77,7 @@ header nav ul li .fa-angle-down {
 
 body { padding-top: 80px; }
 
-nav-bar {
+.nav-bar {
   display: block;
   width: 100%;
   position: fixed;
@@ -85,14 +85,14 @@ nav-bar {
   background: #3498db;
 }
 
-nav-bar span {
+ .nav-bar span {
   float: left;
   font-size: 20px;
   padding: 20px;
   color: #fff;
 }
 
-nav-bar .fa-bars {
+.nav-bar .fa-bars {
   display: block;
   padding: 20px;
   color: #fff;
@@ -103,7 +103,7 @@ nav-bar .fa-bars {
   float: right;
 }
 
-header nav {
+.header nav {
   width: 80%;
   height: auto;
   position: fixed;
@@ -113,36 +113,36 @@ header nav {
   height: 100%;
 }
 
-header nav ul li {
+.header nav ul li {
   display: block;
   border-bottom: 1px solid rgba(255, 255, .5);
   width: 100%;
 }
 
-header ul li a { display: block; }
+.header ul li a { display: block; }
 
-header nav ul li .children {
+.header nav ul li .children {
   width: 100%;
   position: relative;
   overflow: hidden;
   display: none;
 }
 
-header nav ul li:hover .children { display: none; }
+.header nav ul li:hover .children { display: none; }
 
-header nav ul li ul li:first-child { border-top: 1px solid #ffffff99; }
+.header nav ul li ul li:first-child { border-top: 1px solid #ffffff99; }
 
 header nav ul li .children span {
   display: inline-block;
   margin-right: 10px;
 }
 
-header nav ul li .children a {
+.header nav ul li .children a {
   margin-left: 10px;
   padding: 5px 0;
 }
 
-header nav ul li .fa-angle-down {
+.header nav ul li .fa-angle-down {
   position: relative;
   top: 3px;
 }
